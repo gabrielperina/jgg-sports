@@ -1,0 +1,229 @@
+*{margin:0 auto;
+  padding:0; 
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: 'montserrat', sans-serif;
+  }
+
+body{
+  background: #445969;
+}
+    /* criação do menu */
+
+  .menu{
+    width: 100%;
+    height: 59px;
+    background-color: #1e272e;
+    position: fixed;
+    z-index: 2;
+    }
+
+  .menu ul{
+    list-style: none;
+    position: relative;
+    max-width: 900px;
+    }
+
+  .menu ul li{
+    width: 180px;
+    float: left;
+    }
+
+  .menu a{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #1e272e;
+    color: #fff;
+   }
+      
+  .menu ul ul{
+    position: absolute;
+    visibility: hidden;
+    }
+
+  .menu ul li:hover ul{
+    visibility: visible;
+   }
+
+  .menu a:hover{
+    background-color: #CCCCCC;
+    color: #0D1045;
+    }
+  .menu ul ul li{
+    float: none;
+    }
+
+  #footer{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:60px;
+    background-color: #1e272e;
+    color:white;
+    text-align: center;
+    padding-top:20px;
+    }
+
+    /* botão back to top */
+
+  #btop{
+    position: fixed;
+    bottom: 5px;
+    right: 100px;
+    height: 50px;
+    width: 50px;
+    background: #1e272e;
+    border:none;
+    border-radius: 100%;
+    display: none;
+    }
+
+  #imgbt{
+    width: 30px;
+    }
+
+ /* Menu */
+
+  .action{
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    box-sizing: 100%;
+    color: black;
+  }
+  .action .profile{
+    position: relative;
+    width: 180px;
+    height: 175px;
+    border-radius: 10%;
+    overflow: hidden;
+  }
+
+  .action .profile img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .action .menuperfil{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    background: #fff;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    }
+
+  
+  .action .menuperfil h3{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.2em;
+  }
+
+  .action .menuperfil h3 span{
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+
+  .action .menuperfil ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    direction: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .action .menuperfil ul li img{
+      max-width: 20px;
+      margin-right: 10px;
+      opacity: 0.7;
+      transition: 0.2s;
+
+    }
+    .action .menuperfil ul li:hover img{
+      opacity: 1;
+    } 
+
+    .action .menuperfil ul li a{
+      display: inline-block;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+      transition: 0.5s;
+    }
+
+    .action .menuperfil ul li:hover a{
+      background: #d3d3d3;
+    transition: 0.3s;
+    opacity: 1;
+    }
+
+  .textobody h1, .textobody h4{
+    color: black;
+  }
+  .textobody table{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    padding-left: 50px;
+    padding-bottom: 40px ; 
+    background: #fff;
+    width:50%;
+    height: 460px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    font-size: 20px; 
+  }
+
+  .textobody table td {
+    border-top: 1px solid rgba(0,0,0,0.05);
+    color: #555;
+    }
+  .textobody table td input{
+  font-size: 20px ;
+  border-radius: 5px;
+  }
+  .textobody .anotname{
+    height: 30%;
+  }
+
+  
+  .teste{
+    width: 25%;
+  }
+
+  table td textarea{
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    height: 80%;
+    width: 95%;
+  }
+
+#imgPhoto{
+  width: 30px;
+  height: 30px;
+  /*border: 3px solid black; */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
